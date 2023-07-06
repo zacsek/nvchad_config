@@ -2,7 +2,13 @@
 local M = {}
 
 M.ui = {
-  theme = 'tokyonight'
+  theme = 'tokyodark',
+
+  hl_override = {
+    Comment = {
+      italic = true,
+    },
+  },
 }
 
 M.plugins = "custom.plugins"
