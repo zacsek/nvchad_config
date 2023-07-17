@@ -22,6 +22,17 @@ local plugins = {
       require "custom.configs.lspconfig"
     end, -- Override to setup mason-lspconfig
   },
+
+  {
+    "tpope/vim-surround",
+    lazy = false
+    -- Examples:
+    --  given: "Hello world!" -> cs"' -> 'Hello world!'
+    --  use )]} for no spaces 
+    --  ds to delete
+    --  in visual mode S" to surround
+    --  ysiw] to surround a word with braces
+  },
 }
 
 return plugins
