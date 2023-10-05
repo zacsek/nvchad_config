@@ -32,6 +32,9 @@ M.sajat = {
   n = {
     ["<tab>"] = {"<C-w>w", "Next window"},
     ["<S-tab>"] = {"<C-w>W", "Prev window"},
+    ["<F3>"] = {":set hlsearch!<CR>", "Toggle search highlighting"},
+    ["<F4>"] = {":set wrap!<CR>", "Toggle line wrapping"},
+    ["<F8>"] = {":set paste!<BAR>set paste?<CR>", "Toggle paste mode"},
   }
 }
 

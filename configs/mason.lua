@@ -15,9 +15,9 @@ local M = {
 
     "rust-analyzer",
 
-    -- "java-language-server",               -- java
-    -- "kotlin-language-server",
-    -- "kotlin-debug-adapter",
+    "java-language-server",               -- java
+    "kotlin-language-server",
+    "kotlin-debug-adapter",
 
     "spectral-language-server",           -- json, yaml
     "sqlls",
