@@ -33,6 +33,10 @@ local plugins = {
     --  in visual mode S" to surround
     --  ysiw] to surround a word with braces
   },
+  {
+    "godlygeek/tabular",
+    lazy = false
+  },
 }
 
 return plugins
