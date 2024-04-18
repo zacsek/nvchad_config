@@ -37,6 +37,10 @@ local plugins = {
     "godlygeek/tabular",
     lazy = false
   },
+  {
+    "ThePrimeagen/vim-be-good",
+    lazy = false
+  },
 }
 
 return plugins

@@ -2,7 +2,7 @@
 local M = {}
 
 M.ui = {
-  theme = 'tokyodark',
+  theme = 'ayu_dark',
 
   hl_override = {
     Comment = {

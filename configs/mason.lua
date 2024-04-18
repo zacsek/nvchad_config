@@ -1,41 +1,25 @@
 local M = {
   ensure_installed = {
-    -- lua stuff
     "lua-language-server",
-    "vim-language-server",                -- vimscript
-    "stylua",
-
-    "bash-debug-adapter",
+    "vim-language-server",
+    -- "stylua",
+    -- "bash-debug-adapter",
     "bash-language-server",
-
-    -- dev
-    "solargraph",                         -- ruby
-    "rubocop",
+    "solargraph",
+    "ruby-lsp",
+    -- "rubocop",
     "standardrb",
-
-    "rust-analyzer",
-
-    "java-language-server",               -- java
+    -- "rust-analyzer",
+    "java-language-server",
     "kotlin-language-server",
-    "kotlin-debug-adapter",
-
-    "spectral-language-server",           -- json, yaml
+    -- "kotlin-debug-adapter",
+    "spectral-language-server",
     "sqlls",
     "terraform-ls",
-
     "docker-compose-language-service",
     "dockerfile-language-server",
-
-    -- web dev stuff
     "css-lsp",
     "html-lsp",
-    "typescript-language-server",
-    "deno",
-    "prettier",
-
-    -- c/cpp stuff
-    "clangd",
-    "clang-format",
   },
 }
 
